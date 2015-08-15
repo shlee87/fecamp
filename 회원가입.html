@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>회원가입</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>
+        <a href="http://movie.naver.com">NAVER</a><br>
+        <a href="http://movie.daum.net">DAUM</a><br>
+        
+    </p>
+   <p>
+        <strong>테스트</strong>ascading
+        <strong style="color:red">S</strong>tyle
+       <strong style="color:red">S</strong>heet
+       <span class="front" id="end">S</span>
+    </p>
+    <form method="get">
+        <fieldset>
+            <legend>필수입력정보</legend>
+            <p>
+            이메일
+            <input type="email" name="email">
+            </p>
+            <p>
+            비밀번호
+            <input type="password" name="password">
+            </p>
+            <p>
+            비밀번호 확인
+            <input type="password" name="password">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>선택입력정보</legend>
+            <p>
+            <select name="phone1">
+                <option>010</option>
+                <option>02</option>
+                <option>031</option>
+                <option>070</option>
+            </select>
+            <input type="text" name="phone2" size="6" maxlength="4">
+            <input type="text" name="phone3" size="6" maxlength="7">
+            </p>
+            <p>
+                <input type="date" name="birth">
+            </p>
+            
+        </fieldset>
+        
+        <button type="submit">
+        보내기
+        </button>
+        
+    </form>
+    </body>
